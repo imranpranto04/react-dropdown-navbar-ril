@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+
+  @media (max-width: 768px) {
+    font-size: 50%;
+  }
+  @media (max-width: 450px) {
+    font-size: 40%;
+  }
+}
+
+.bigGradientText {
+  text-align: center;
+  font-size: 7rem;
+  background: linear-gradient(#eebd89, #d13abd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.centerText {
+  height: 90vh;
+  display: grid;
+  place-items: center;
+}
